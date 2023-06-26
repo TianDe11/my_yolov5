@@ -1,0 +1,2 @@
+make -j16;../../bin/yolov5 -l ~/yolov5-master/yolov5s.engine -c ~/yolov5-master/data/image/bus.jpg
+python detect.py --weights yolov5s.engine --source data/image/bus.jpg
